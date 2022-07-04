@@ -47,7 +47,7 @@ Please design tests/experiements to demostrate that your system fulfills such re
 
 相关api：
 
-```yml
+```markdown
 /api/products
 	get: 查看所有商品信息
 /api/products/{productId}
@@ -68,7 +68,7 @@ Please design tests/experiements to demostrate that your system fulfills such re
 
 相关api：
 
-```yaml
+```markdown
 /api/cart
 	get: 看购物车中所有商品		
 /api/cart/add/{productId}
@@ -85,11 +85,11 @@ Please design tests/experiements to demostrate that your system fulfills such re
 
 相关api：
 
-```yaml
+```markdown
 /api/order
-	post: 产生一个订单
+    post: 产生一个订单
 /api/order/{id}
-	get: 根据id获取订单信息
+    get: 根据id获取订单信息
 ```
 
 ### pos-delivery
@@ -100,11 +100,11 @@ Please design tests/experiements to demostrate that your system fulfills such re
 
 相关api：
 
-```yaml
+```markdown
 /api/delivery/byid/{id}
-	get: 根据id获得物流信息
+    get: 根据id获得物流信息
 /api/delivery/byorder/{orderId}
-	get: 根据订单id获得物流信息
+    get: 根据订单id获得物流信息
 ```
 
 
@@ -125,9 +125,9 @@ Please design tests/experiements to demostrate that your system fulfills such re
 
 测试结果如下所示，所有响应的延迟均在800ms内 ：
 
-![1656925937620](README.assets\1656925937620.png)
+![1656925937620](README.assets/1656925937620.png)
 
-![1656925959833](README.assets\1656925959833.png)
+![1656925959833](README.assets/1656925959833.png)
 
 
 
